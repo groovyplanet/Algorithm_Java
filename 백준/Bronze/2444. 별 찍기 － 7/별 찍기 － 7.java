@@ -1,26 +1,28 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 
 public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
 
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		final int N = sc.nextInt();
-		
-		for(int i = 1; i <= N ; i++) {
-			for(int j = 0; j < N-i; j++)
-				System.out.print(" ");
-			for(int j = 0; j < i*2-1; j++)
-				System.out.print("*");
-			System.out.println();
-		}
-		
-		for(int i = N-1; i >= 0 ; i--) {
-			for(int j = 0; j < N-i; j++)
-				System.out.print(" ");
-			for(int j = 0; j < i*2-1; j++)
-				System.out.print("*");
-			System.out.println();
-		}
-	}
+        // 위쪽 삼각형 출력
+        for (int i = 1; i <= n; i++) {
+            int spaces = n - i;
+            int stars = 2 * i - 1;
+            String line = " ".repeat(spaces) + "*".repeat(stars);
+            System.out.println(line);
+        }
+
+        // 아래쪽 삼각형 출력
+        for (int i = n - 1; i >= 1; i--) {
+            int spaces = n - i;
+            int stars = 2 * i - 1;
+            String line = " ".repeat(spaces) + "*".repeat(stars);
+            System.out.println(line);
+        }
+
+        br.close();
+    }
 }
