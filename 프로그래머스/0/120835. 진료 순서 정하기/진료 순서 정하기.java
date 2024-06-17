@@ -11,7 +11,7 @@ public class Solution {
         
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < length; i++) {
-            map.put(arr[i], length - i);
+            rankMap.put(arr[i], length - i);
         }
 
         int[] result = new int[length];
