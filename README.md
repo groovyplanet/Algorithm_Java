@@ -1,2 +1,41 @@
-# Algorithm_JAVA
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+아래는 `백준`과 `프로그래머스` 문제 풀이가 포함된 레포지토리의 README 파일 작성 예시입니다.
+
+
+# 알고리즘 문제 풀이 레포지토리
+
+이 레포지토리는 [백준 온라인 저지 (BOJ)](https://www.acmicpc.net/)와 [프로그래머스](https://programmers.co.kr/)에서 풀었던 알고리즘 문제들의 풀이를 모아둔 공간입니다. 
+알고리즘 문제 해결 능력을 향상시키고, 문제 풀이 과정을 기록하기 위해 이 레포지토리를 운영하고 있습니다.
+
+## 구성
+
+- **Baekjoon**: 백준 온라인 저지에서 해결한 문제들입니다.
+  - 문제 번호별로 디렉터리가 구성되어 있으며, 각 디렉터리에는 문제에 대한 풀이 코드가 포함되어 있습니다.
+  
+- **Programmers**: 프로그래머스에서 해결한 문제들입니다.
+  - 문제 유형 또는 레벨별로 디렉터리가 구성되어 있으며, 각 디렉터리에는 문제에 대한 풀이 코드가 포함되어 있습니다.
+
+## 파일 구조
+
+- `Baekjoon/`: 백준 문제 풀이 모음
+  - 각 디렉터리는 문제 번호를 기준으로 정리되어 있습니다.
+  
+- `Programmers/`: 프로그래머스 문제 풀이 모음
+  - 각 디렉터리는 문제의 레벨 또는 유형을 기준으로 정리되어 있습니다.
+
+## 사용 언어
+
+- Python
+- JavaScript (필요에 따라 추가 가능)
+- 기타 언어들 (C++, Java 등)
+
+## 기여 방법
+
+이 레포지토리는 개인적인 학습 및 기록 용도로 사용됩니다. 하지만 코드 개선이나 제안 사항이 있다면 PR(Pull Request)이나 이슈(Issue)를 통해 기여해주시면 감사하겠습니다.
+
+## 참고 자료
+
+- [백준 온라인 저지](https://www.acmicpc.net/)
+- [프로그래머스](https://programmers.co.kr/)
+
+
+
